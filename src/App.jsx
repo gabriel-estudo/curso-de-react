@@ -4,7 +4,7 @@ import AddTask from "./components/AddTask";
 import { useEffect, useState } from "react";
 import {v4} from 'uuid';
 import Title from "./components/Title";
-import Test from "./components/Test";
+// import Test from "./components/Test";
 
 function App() {
   const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem("tasks")) || [{
